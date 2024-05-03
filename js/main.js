@@ -12,5 +12,5 @@ const dut = {
     age: 23
 };
 console.log(`${dut.Name.toLowerCase()}`);
-let herName = "Ahok Biar";
+let herName = "Arop Kulang";
 console.log(herName.toLowerCase());
