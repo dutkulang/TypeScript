@@ -34,7 +34,7 @@ let myName: string = "Dut Andrew Kulang";
 const myAge: number = 23;
 ```
 
-Other languages like Python, JavaScript, ruby are loosely or weakly typed langauges, they do not require data type specification and are also dynamically typed, a variable can be of type `int` and yet some where down the code change to store a `string`
+Other languages like Python, JavaScript, ruby are loosely or weakly typed langauges, they do not require data type specification and are also dynamically typed, a variable can be of type `int` and yet some where down the code change to store a `string` this sudden change can bring it bugs into software and that is what typescript tries to solve.
 
 ## Benefits of using TypeScript
 
@@ -92,7 +92,7 @@ let aNumber: number = 78
 
 let aString: string = "Hello, codes"
 
-let amBooloean: boolean = true
+let aBooloean: boolean = true
 
 let canBeAnyThing: any = 1234
 canBeAnyThing = "hahahahahaha"
