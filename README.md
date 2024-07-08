@@ -16,7 +16,7 @@ Resources used: [
 Copyrights: This material is under the copyleft GNU licence
  -->
 ## TypeScript
-TypeScript is a sub set of JavaScript that enforces the use of types.
+TypeScript is a superset of JavaScript that enforces the use of types.
 
 `Valid TypeScript is valid JavaScript`
 
@@ -34,7 +34,7 @@ let myName: string = "Dut Andrew Kulang";
 const myAge: number = 23;
 ```
 
-Other languages like Python, JavaScript, ruby are loosely or weakly typed langauges, they do not require data type specification and are also dynamically typed, a variable can be of type `int` and yet some where down the code change to store a `string` this sudden change can bring it bugs into software and that is what typescript tries to solve.
+Other languages like Python, JavaScript, ruby are loosely or weakly typed langauges, they do not require data type specification and are also dynamically typed, a variable can be of type `int` and yet some where down the code change to store a `string` this sudden change can bring in bugs into software and that is what typescript tries to solve.
 
 ## Benefits of using TypeScript
 
@@ -187,8 +187,9 @@ TypeScript’s checking of whether a value is allowed to be provided to a functi
 
 ### Installation
 
-You will need to have node installed on your computer inorder to use the node package manager to install TypeScript
+You will need to have node installed on your computer inorder to use node's package manager `npm` to install TypeScript
 
+__NPM__ is NOT node package manager. It anything else but not node package manager
 ```sh
 npm i -g typescript
 ```
