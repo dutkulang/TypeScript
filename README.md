@@ -236,4 +236,4 @@ inside tsconfig.json
 
 `"target":` ==> this specifies what JavaScript standard TypeScript should use in compiling your code like es5,es2015,es2016
 
-`"noEmitOnError": true` ==> This disables typeScript default behaviour of compiling even when there is an erro. This setting makes sure TypeScript compiles when your code is error free 
+`"noEmitOnError": true` ==> This disables typeScript default behaviour of compiling even when there is an erro. This setting makes sure TypeScript compiles when your code is error free. 
